@@ -1,6 +1,3 @@
-#[macro_use]
-extern crate clap;
-
 use clap::Clap;
 use notify_rust::error::Result;
 use notify_rust::Notification;
