@@ -1,0 +1,11 @@
+[package]
+name = "countdown"
+version = "1.0.2"
+authors = ["PowerSnail <hj@powersnail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+notify-rust = "4"
+clap = "3.0.0-beta.1"
