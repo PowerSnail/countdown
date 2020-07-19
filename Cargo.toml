@@ -1,10 +1,12 @@
 [package]
-name = "countdown"
+name = "snail-countdown"
 version = "1.0.2"
 authors = ["PowerSnail <hj@powersnail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+repository = "https://github.com/PowerSnail/countdown"
+license = "MIT"
+description = "The program sleeps for a specified time, and send a system notification."
+categories = ["command-line-utilities"]
 
 [dependencies]
 notify-rust = "4"

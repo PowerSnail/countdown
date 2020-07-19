@@ -126,14 +126,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "245097e9a4535ee1e3e3931fcfcd55a796a44c643e8596ff6566d68f09b87bbc"
 
 [[package]]
-name = "countdown"
-version = "1.0.2"
-dependencies = [
- "clap",
- "notify-rust",
-]
-
-[[package]]
 name = "crossbeam-utils"
 version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -403,6 +395,14 @@ dependencies = [
  "blake2b_simd",
  "constant_time_eq",
  "crossbeam-utils",
+]
+
+[[package]]
+name = "snail-countdown"
+version = "1.0.2"
+dependencies = [
+ "clap",
+ "notify-rust",
 ]
 
 [[package]]
