@@ -1,13 +1,13 @@
 [package]
 name = "snail-countdown"
-version = "1.0.2"
+version = "1.1.0"
 authors = ["PowerSnail <hj@powersnail.com>"]
-edition = "2018"
+edition = "2021"
 repository = "https://github.com/PowerSnail/countdown"
 license = "MIT"
-description = "The program sleeps for a specified time, and send a system notification."
+description = "Sends a system-wide notification after a countdown."
 categories = ["command-line-utilities"]
 
 [dependencies]
 notify-rust = "4"
-clap = "3.0.0-beta.1"
+clap = { version = "^3", features = ["derive"] }
